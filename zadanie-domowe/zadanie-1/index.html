@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
-    <p>Zadanie 1</p>
+    <p>Formularz zgłoszeniowy na kurs:</p>
+
+    <label for="imie">Imię:</label><br/>
+    <input type="text" name="imie" id="imie" required><br/>
+
+    <label for="nazwisko">Nazwisko:</label><br/>
+    <input type="text" name="nazwisko" id="nazwisko" required><br/>
+
+    <label for="email">Email:</label><br/>
+    <input type="email" name="email" id="email" required><br/>
+
+    <label for="numer">Numer telefonu:</label><br/>
+    <input type="tel" name="numer" id="numer" required><br/>
+
+    <label for="miasto">Miasto:</label><br/>
+    <select name="miasto" id="miasto">
+            <option value="gdansk">Gdańsk</option>
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+        </select><br/>
 </body>
+
 </html>
