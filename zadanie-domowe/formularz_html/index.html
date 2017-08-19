@@ -7,16 +7,17 @@
 </head>
 
 <body>
-    <form action="https://formspree.io/wiktoriammazan@gmail.com"
-      method="POST">
-       <p>Proszę wypełnić ankietę:</p>
+    <form action="https://formspree.io/wiktoriammazan@gmail.com" method="POST">
+        <p>Proszę wypełnić ankietę:</p>
         <label for="imie">Imię:</label><br/>
         <input type="text" name="imie" id="imie"><br/>
         <label for="nazwisko">Nazwisko:</label><br/>
         <input type="text" name="nazwisko" id="nazwisko"><br/>
         <label for="kraj">Kraj:</label>
         <select name="kraj">
+           <label for="polska"></label>
             <option value="polska">Polska</option>
+            <label for="usa"></label>
             <option value="usa">USA</option>
         </select>
         <label for="email">Email:</label><br/>
@@ -24,7 +25,7 @@
         <label for="numer">Numer telefonu:</label><br/>
         <input type="tel" name="numer" id="numer"><br/>
         <label for="wiadomosc">Wiadomość:</label><br/>
-        <textarea maxlength="1000" /><br/><br/>
+        <textarea maxlength="1000"></textarea><br/><br/>
         <input type="submit" value="Submit"><br/>
     </form>
 </body>
