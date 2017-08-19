@@ -10,21 +10,21 @@
     <form action="https://formspree.io/wiktoriammazan@gmail.com" method="POST">
         <p>Proszę wypełnić ankietę:</p>
         <label for="imie">Imię:</label><br/>
-        <input type="text" name="imie" id="imie"><br/>
+        <input type="text" name="imie" id="imie" required><br/>
         <label for="nazwisko">Nazwisko:</label><br/>
-        <input type="text" name="nazwisko" id="nazwisko"><br/>
+        <input type="text" name="nazwisko" id="nazwisko" required><br/>
         <label for="kraj">Kraj:</label><br/>
         <select name="kraj" id="kraj">
             <option value="polska">Polska</option>
             <option value="usa">USA</option>
         </select>
         <label for="email">Email:</label><br/>
-        <input type="email" name="email" id="email"><br/>
+        <input type="email" name="email" id="email" required><br/>
         <label for="numer">Numer telefonu:</label><br/>
-        <input type="tel" name="numer" id="numer"><br/>
+        <input type="tel" name="numer" id="numer" required><br/>
         <label for="wiadomosc">Wiadomość:</label><br/>
         <textarea maxlength="1000" id="wiadomosc"></textarea><br/><br/>
-        <input type="submit" value="Submit"><br/>
+        <input type="submit" value="Submit" ><br/>
     </form>
 </body>
 
