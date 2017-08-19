@@ -19,8 +19,11 @@
         <select name="kraj" id="kraj">
             <option value="polska">Polska</option>
             <option value="usa">USA</option>
-        </select>
+        </select><br/>
         
+        <label for="kod">kod pocztowy:</label><br/>
+        <input type="text" pattern="^\d{2}-\d{3}$" id="kod" required><br/>    
+         
         <label for="email">Email:</label><br/>
         <input type="email" name="email" id="email" required><br/>
         
