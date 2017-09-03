@@ -1,0 +1,118 @@
+#bigbox {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: solid 4px;
+    border-color: white;
+    outline-color: white;
+}
+
+#box1 {
+    background-color: red;
+    
+    
+}
+
+#box2 {
+    background-color: yellow;
+    top: 200px;
+}
+
+#box3 {
+    background-color: purple;
+    top: 400px;
+}
+
+#box4 {
+    background-color: blue;
+    left: 200px;
+}
+
+#box5 {
+    background-color: black;
+    left: 200px;
+    top: 200px;
+}
+
+#box6 {
+    background-color: grey;
+    top: 400px;
+    left: 200px;
+}
+
+#box7 {
+    background-color: green;
+    right: 0px;
+}
+
+#box8 {
+    background-color: orange;
+    right: 0px;
+    top: 200px;
+}
+
+#box9 {
+    background-color: pink;
+    right: 0px;
+    top: 400px;
+}
+
+.circle {
+    display: inline-block;
+    vertical-align: middle;
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: solid 2px;
+    border-color: black;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+#circle1 {
+    background-color: pink;
+}
+
+#circle2 {
+    background-color: green;
+}
+
+#circle3 {
+    background-color: orange;
+}
+
+#circle4 {
+    background-color: grey;
+}
+
+#circle5 {
+    background-color: red;
+}
+
+#circle6 {
+    background-color: yellow;
+}
+
+#circle7 {
+    background-color: purple;
+}
+
+#circle8 {
+    background-color: blue;
+}
+
+#circle9 {
+    background-color: black;
+}
