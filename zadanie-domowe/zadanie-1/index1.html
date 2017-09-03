@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+<body>
+    <form action="https://formspree.io/wiktoriammazan@gmail.com" method="POST">
+       
+        <p>Formularz zgłoszeniowy na kurs</p>
+        
+        <label for="imie">Imię:</label><br>
+        <input type="text" name="imie" id="imie" required><br>
+        
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" name="nazwisko" id="nazwisko" required><br>
+        
+        <label for="mail">E-mail:</label><br>
+        <input type="email" name="mail" id="mail" required><br>
+        
+        <label for="telefon">Numer telefonu:</label><br>
+        <input type="text" pattern="[0-9]{9}" name="telefon" id="telefon" required><br>
+        
+        <label for="miasto">Miejsce zamieszkania:</label><br>
+        <select name="miasto" id="miasto">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select>
+        
+        <label for="plec">Płeć:</label><br>
+        <input type="radio" name="plec" value="kobieta" checked>Kobieta<br>
+        <input type="radio" name="plec" value="mezczyzna">Mężczyzna<br>
+        <input type="radio" name="plec" value="other">Inne<br>
+        
+        <label for="zgoda">Proszę wyrazić zgodę na wykorzystanie danych osobowych:</label><br>
+        <input type="checkbox" required>Wyrażam zgodę na wykorzystanie moich danych osobowych w celach związanych z rekrutacją<br>
+        
+        <label for="poletekst">Miejsce na dodatkowy komentarz:</label><br>
+        <textarea name="poletekst" id="poletekst" cols="30" rows="3" maxlength="1000"></textarea><br>
+        <input type="submit" value="Send">
+        
+    </form>
+</body>
+</html>
