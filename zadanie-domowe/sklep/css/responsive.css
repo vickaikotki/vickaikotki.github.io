@@ -1,0 +1,16 @@
+/* Produkty mają się wyświetlić w 2 kolumnach*/
+
+@media all and (max-width: 992px) {
+    .zdjecie {
+        width: 40%;
+    }
+}
+
+
+/*produkty mają się wyświetlić w 1 kolumnie*/
+
+@media all and (max-width: 480px) {
+    .zdjecie {
+        width: 80%;
+    }
+}
