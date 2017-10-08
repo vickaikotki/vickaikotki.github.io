@@ -1,0 +1,34 @@
+q[lang="en"]::before {
+    content: "*";
+}
+
+q[lang="en"]::after {
+    content: "*";
+}
+
+blockquote[lang="en"]::before {
+    content: "*";
+}
+
+blockquote[lang="en"]::after {
+    content: "*";
+}
+
+
+q:not([lang="en"])::before {
+    content: ' " ';
+}
+
+q::after {
+    content: ' " ';
+}
+
+
+blockquote::before {
+    content:  ' " ';
+}
+
+
+blockquote::after {
+    content: ' " ';
+}
