@@ -4,6 +4,11 @@
     .zdjecie {
         width: 40%;
     }
+    
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 
 
@@ -12,5 +17,10 @@
 @media all and (max-width: 480px) {
     .zdjecie {
         width: 80%;
+    }
+    
+    .container {
+        padding-right: 7.5%;
+        padding-left: 7.5%;
     }
 }
