@@ -3,19 +3,13 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-
 /*nawigacja*/
-
-.navbar-collapse {
-    
-}
 
 #main-nav.transparent-blue, .navbar-collapse.transparent-blue2 {
     background-color: rgba(14, 216, 214, 0.63);
 }
 
 #main-nav {
-/*    height: 50px;*/
     display: flex;
     justify-content: space-around;
     transition: all 0.4s;
@@ -37,7 +31,6 @@ body {
     text-transform: uppercase;
 }
 
-
 /*header*/
 
 .header {
@@ -46,7 +39,6 @@ body {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    /*    display: flex*/
 }
 
 .header .header-box {
@@ -100,7 +92,6 @@ body {
     color: white;
 }
 
-
 /*sekcja services*/
 
 .sekcja-services {
@@ -151,8 +142,6 @@ body {
 .header-pow {
     font-weight: 600;
     margin: 0 10px 20px 10px;
-    
-    
     padding: 10px 0;
     text-transform: capitalize; 
 }
@@ -169,17 +158,10 @@ body {
     padding-bottom: 10%;
 }
 
-/*
-.services-text .span-pow {
-    padding-bottom: 10%;
-}
-*/
-
 .services-rzad1 h2 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 
 
@@ -191,22 +173,17 @@ body {
 
 .container-portfolio {
     width: 100%;
-/*    height: 100vh;*/
-    
     justify-content: center;
     padding:  6% 8%;
 }
 
 .opinajace {
-/*    height: 300px;*/
     overflow:hidden;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;  
 }
 
 .podpis {
-    background-color: white;
-    
+    background-color: white;  
 }
 
 .zdjecie{
@@ -220,7 +197,6 @@ body {
 .zdjecie:hover {
     transform: scale(1.2);
 }
-
 
 .zdjecie1 {
     background-image: url(../zdj/13.png); 
@@ -252,29 +228,20 @@ body {
 }
 .col-portfolio1 span {
     text-transform: none;
-    display: block;
-    
+    display: block;   
 }
 
 .col-portfolio1 {
-/*    padding: 6%;*/
     padding-bottom: 5%;
 }
-
 
 .fa-plus {
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%); 
 }
-
-.div-overflow {
-    
-}
-
 
 .div-domaski {
     position: relative;
@@ -292,8 +259,6 @@ body {
 /*sekcja team*/
 
 .sekcja-team {
-/*    width: 100%;*/
-/*    height: 100vh;*/
     justify-content: center;
     padding:  5% 8%;
 }
@@ -309,8 +274,7 @@ body {
 .social-media-icons {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .social {
@@ -321,25 +285,19 @@ body {
     border-radius: 50%;
     margin:0  6px;
     line-height: 30px;
-
 }
 
 .social:hover {
-    background-color: #0ed8d6;
-    
-    
+    background-color: #0ed8d6;   
 }
 
 .fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram {
-    color: white;
-    
+    color: white;   
 }
-
 
 .lorem-tekst {
     padding-top: 5%;
 }
-
 
 /* kontakt-formularz*/
 
@@ -348,24 +306,19 @@ body {
 }
 
 .send-message {
-/*    display: flex;*/
     text-transform: uppercase;
     background-color: #0ed8d6;
-    color: white;
-    
+    color: white;  
 }
 
 #contact {
-    
     background: linear-gradient( rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url(../bootstrap-project-photos/img/footer/world-map.jpg);
-    color: white;
-    
+    color: white; 
 }
 
 .container-contact {
     display: flex;
     justify-content: center;
-/*    padding: 10% 0;*/
 }
 
 .btn-send {
@@ -375,36 +328,16 @@ body {
 
 .form-kontakt {
     width: 100%;
-/*    margin: 5%;*/
 }
 
 /*footer*/
 
 #footer  {
-    margin: 1% ;
-
+    margin: 1%;
 }
 
-.footer-row {
-/*
-    display: flex;
-    flex-direction: row;
-    
-*/
-    
-}
-
-.footer-privacy {
-/*    display: inline-block;*/
-}
-
-.footer-privacy ul{
-/*    padding: 0 2% 0 0;*/
-/*    margin: 2%;*/
-/*    display: inline-block;*/
-/*    text-align: center;*/
+.footer-privacy ul {
     padding: 0;
-    
 }
 
 .footer-privacy ul li {
