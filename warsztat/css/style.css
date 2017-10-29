@@ -41,7 +41,7 @@ body {
 /*header*/
 
 .header {
-    background-image: url('../bootstrap-project-photos/img/header/pictures_on_the_wall.jpg');
+    background-image: url('../IMG_3296.jpg');
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -210,22 +210,22 @@ body {
 
 
 .zdjecie1 {
-    background-image: url(../bootstrap-project-photos/img/portfolio/box_of_cookies.jpg); 
+    background-image: url(../zdj/13.png); 
 }
 .zdjecie2 {
-    background-image: url(../bootstrap-project-photos/img/portfolio/chaotic_paint.jpg); 
+    background-image: url(../zdj/14.png); 
 }
 .zdjecie3 {
-    background-image: url(../bootstrap-project-photos/img/portfolio/chestnut_on_bracket.jpg); 
+    background-image: url(../zdj/15.png); 
 }
 .zdjecie4 {
-    background-image: url(../bootstrap-project-photos/img/portfolio/child_with_blue_paint.jpg); 
+    background-image: url(../zdj/9.png); 
 }
 .zdjecie5 {
-    background-image: url(../bootstrap-project-photos/img/portfolio/house_with_blue_doors.jpg); 
+    background-image: url(../zdj/17.png); 
 }
 .zdjecie6 {
-    background-image: url(../bootstrap-project-photos/img/portfolio/typing_on_laptop.jpg); 
+    background-image: url(../zdj/18.png); 
 }
 
 .col-portfolio1 {
