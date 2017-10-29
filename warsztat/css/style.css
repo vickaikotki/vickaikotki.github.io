@@ -359,6 +359,12 @@ body {
     text-align: center;
 }
 
+.form-kontakt {
+    width: 100%;
+}
+
+/*footer*/
+
 #footer  {
     margin: 1% ;
 
