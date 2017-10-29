@@ -237,15 +237,23 @@
     <section id="contact">
         <div class="container container-contact">
             <form action="https://formspree.io/wiktoriammazan@gmail.com" method="POST" class="form-kontakt">
+               
+               <label for="nazwisko">Nazwisko:</label><br/>
+        <input type="text" name="nazwisko" id="nazwisko" required><br/>
+               
+               
                 <div class="row row-container">
                     <div class="col-lg-12">
                         <h2 class="mon header-pow text-center">Contact us <span class="span-pow">We are so interesting. Contact us!</span></h2>
                     </div>
 
                     <div class="col-lg-6 form-polowa">
-                        <input type="text" class="formularz" placeholder="your name*" required>
-                        <input type="email" class="formularz" placeholder="your email*" required>
-                        <input type="tel" class="formularz" placeholder="your number*" required>
+                       <label for="imie"></label>
+                        <input type="text" name="imie" id="imie" class="formularz" placeholder="your name*" required>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" class="formularz" placeholder="your email*" required>
+                        <label for="telefon"></label>
+                        <input type="tel" name="telefon" id="telefon" class="formularz" placeholder="your number*" required>
                     </div>
                     <div class="col-lg-6 form-polowa">
 
