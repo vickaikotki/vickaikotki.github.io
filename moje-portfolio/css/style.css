@@ -91,6 +91,7 @@ p {
 #main-nav ul .menu-item {
     display: flex;
     justify-content: center;
+/*    justify-content: center;*/
 /*	display: inline-block;*/
 /*
     display: flex;
