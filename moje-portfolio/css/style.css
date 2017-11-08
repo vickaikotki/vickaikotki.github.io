@@ -44,7 +44,10 @@ p {
 
 
 .kolumna-zdjecie {
-    justify-content: flex-end;
+/*
+    display: flex;
+    justify-content: center;
+*/
 }
 
 .kolumna-tekst {
@@ -55,12 +58,21 @@ p {
 
 
 /*  Main nav styles */
+.duze-col {
+    display: flex;
+    justify-content: flex-end;
+}
+.list-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 #main-nav {
 	background-color: #fff;
 	position: fixed;
-	width: 100%;
+/*	width: 100%;*/
 	z-index: 20;
-	text-align: right;
+/*	text-align: right;*/
 }
 
 #main-nav label[for="responsive-menu"] {
@@ -73,23 +85,28 @@ p {
 
 #main-nav ul {
 	margin: 0;
-	text-align: right;
+/*	text-align: right;*/
 }
 
 #main-nav ul .menu-item {
-	display: inline-block;
+    display: flex;
+    justify-content: center;
+/*	display: inline-block;*/
 /*
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
 */
-	padding: 15px;
+	padding: 15px 0;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 #main-nav ul .menu-item a {
     
 	color: #1ac056;
 	text-decoration: none;
+/*    list-style-type: none;*/
 }
 /*  Main nav styles - END*/
 
