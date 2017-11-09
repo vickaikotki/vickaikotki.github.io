@@ -1,0 +1,41 @@
+.sekcja-about {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: #f9fcfe;
+    padding: 5% 10%;
+    
+    .container {
+        .row {
+            .col-lg-12 {
+                .header3{
+                    
+                }
+                .span2 {
+                    color: #1ac056;
+	                font-weight: 300;
+                    
+                }
+            }
+            .kolumna-zdjecie {
+                col-1-2 {
+                    text-align: center;
+                    
+                }
+                .about-img {
+                max-height: 350px;
+	            border: 10px solid #fff;
+	            border-radius: 15px;
+                object-fit: cover;
+                    
+                }
+            }
+            .kolumna-tekst {
+                text-align: justify;
+                .about-content {
+                    
+                }
+            }
+        }
+    }
+}
+
