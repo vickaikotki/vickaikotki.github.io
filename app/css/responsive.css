@@ -39,17 +39,27 @@
         padding: 15px;
         justify-content: flex-end;
     }
-    .col-1-2 {
-        /*        float: left;*/
-        /*        width: 100%;*/
+    
+    #main-footer .row .col-1-2 h2, #main-footer .row .col-1-2 address,  {
         text-align: center;
     }
-    #main-footer h2 {
+/*
+    .col-1-2, #main-footer  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
     }
-    #portfolio .single-item {
-        /*        width: 100%;*/
+  
+*/
+/*
+    .footer {
+        text-align: center;
     }
+    
+    
+*/
+
 }
 
 @media all and (max-width: 500px) {
@@ -72,8 +82,5 @@
     .icons-container {
         justify-content: center;
         display: flex;
-    }
-    .footer {
-        text-align: center;
     }
 }
