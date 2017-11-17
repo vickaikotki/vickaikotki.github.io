@@ -73,4 +73,7 @@
         justify-content: center;
         display: flex;
     }
+    .footer {
+        text-align: center;
+    }
 }
