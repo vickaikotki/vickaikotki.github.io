@@ -1,11 +1,14 @@
 body {
     margin: 0;
     font-family: 'Questrial', sans-serif;
-    overflow: hidden;
 }
 
-
 /*nawigacja*/
+
+.seashell {
+    width: 50px;
+    height: 50px;
+}
 
 #main-nav.transparent-blue,
 .navbar-collapse.transparent-blue2 {
@@ -32,37 +35,30 @@ body {
 /*header*/
 
 .header {
+    position: relative;
     color: white;
-    height: 100vh;
-    background-image: url('../zdj/20170924_135014.png');
+    height: 100vh;      
+}
+
+.div-photo-header {
+    
+    background-image: url('../zdj/45.jpeg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
-        
-    background-position:center-top;
-    background-position-x: 50%;
-    background-position-y: 50%;
-
-        -webkit-animation: zoomin 30s linear infinite;
+    -webkit-animation: zoomin 60s linear infinite;
 }
 
-.div-overflow-header {
-    /*
-    background-image: url('../zdj/20170924_135014.png');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-*/
-
+.overflow-photo-header {
+/*    overflow: hidden;*/
 }
 
 
 .header-box  {
+    position: absolute;
     overflow: hidden;
 }
 
@@ -81,19 +77,6 @@ body {
 
 }
 
-@-webkit-keyframes nozoom {
-    0% {
-        -webkit-transform: scale(1);
-    }
-    50% {
-        -webkit-transform: scale(0.7);
-    }
-    
-    100% {
-        -webkit-transform: scale(1);
-    }
-
-}
 
 .div-maska-header {
     justify-content: center;
@@ -102,7 +85,7 @@ body {
     align-content: center;
     align-items: center;
     height: 100vh;
-    -webkit-animation: nozoom 30s linear infinite;
+    position: absolute;
 
 }
 
@@ -122,7 +105,6 @@ body {
 
 .span-header {
     font-size: 30px;
-    /*    font-family: 'Lobster', cursive;*/
     opacity: 0;
     transition: all 0.25s;
 }
@@ -137,7 +119,7 @@ body {
     background-color: rgba(0, 0, 0, 0.54);
 }
 
-.header .header-box .guzik-viewmore {
+.guzik-viewmore {
     text-transform: uppercase;
     color: white;
     background-color: #0ed8d6;
@@ -146,7 +128,7 @@ body {
     transition: all 0.4s;
 }
 
-.header .header-box .guzik-viewmore:hover {
+.guzik-viewmore:hover {
     color: white;
     background-color: rgba(14, 216, 214, 0.74);
 }
