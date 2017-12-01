@@ -3,13 +3,16 @@ $(document).ready(function () {
 
 
     $("#guzik-show").click(function () {
-        console.log('1');
-        $("#kolumna-lista").show("slow", function () {
-            console.log('2');
-        });
-        $("#kolumna-login").hide("slow", function () {
-            console.log('3');
-        });
+
+
+            console.log('1');
+            $("#kolumna-lista").show("slow", function () {
+                console.log('2');
+            });
+            $("#kolumna-login").hide("slow", function () {
+                console.log('3');
+            });
+
     });
 
 

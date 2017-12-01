@@ -240,3 +240,14 @@ input {
 .addBtn:hover {
     background-color: #bbb;
 }
+
+#licencja {
+    bottom: 0;
+    position: fixed;
+    
+}
+
+a {
+    text-decoration-style: none;
+    
+}
