@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>To do list</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+
+    <!--	bootstrap-->
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Main style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="container-fluid main-header ">
+        <div class="row main-row">
+            <div class="col-lg-6 col-sm-12 kolumna-login kolumna-styl">
+                <h2 class="header-text text-center">Having a hard time sticking to your plan?</h2>
+                <p class="text-center">Login to try out our <span>free to-do-list</span> app</p>
+                <div class="login-form">
+                    <form action="">
+                        <label><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <label><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit">Login</button>
+                        <input type="checkbox" checked="checked"><span>Remember me</span>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 kolumna-lista kolumna-styl">
+                <div id="myDIV" class="header">
+                    <h2 style="margin:5px">Things to do</h2>
+                    <input type="text" id="myInput" placeholder="Title...">
+                    <span onclick="newElement()" class="addBtn">Add</span>
+                </div>
+
+                <ul id="myUL">
+                    <li>This is an example</li>
+                    <li class="checked">of a to-do list</li>
+                    <li>cixk the X to delete a task</li>
+                    <li>Add a new task</li>
+                    <li>If you complete a task</li>
+                    <li class="checked">You can ckeck it</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
