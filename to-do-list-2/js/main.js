@@ -12,16 +12,12 @@ $(document).ready(function () {
             $("#kolumna-login").hide("slow", function () {
                 console.log('3');
             });
-
     });
-
-
-
 });
 
 
 
-// Create a "close" button and append it to each list item
+// 'X' do zamykania tasków
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
@@ -42,7 +38,7 @@ for (i = 0; i < close.length; i++) {
     }
 }
 
-// Add a "checked" symbol when clicking on a list item
+// 'check'- dodawanie znaczka checked po kliknieciu na guzik
 var list = document.querySelector('ul');
 list.addEventListener('click', function (ev) {
     if (ev.target.tagName === 'LI') {
@@ -50,14 +46,14 @@ list.addEventListener('click', function (ev) {
     }
 }, false);
 
-// Create a new list item when clicking on the "Add" button
+// dodanie nowego elementu listy po kliknięciu na guzik 'add'
 function newElement() {
     var li = document.createElement("li");
     var inputValue = document.getElementById("myInput").value;
     var t = document.createTextNode(inputValue);
     li.appendChild(t);
     if (inputValue === '') {
-        alert("You must write something!");
+        alert("Write something to add a task!");
     } else {
         document.getElementById("myUL").appendChild(li);
     }
