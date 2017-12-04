@@ -18,7 +18,7 @@ $(document).ready(function () {
 
 
 // 'X' do zamykania tasków
-var myNodelist = document.getElementsByTagName("li");
+var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
     var span = document.createElement("span");
@@ -41,7 +41,7 @@ for (i = 0; i < close.length; i++) {
 // 'check'- dodawanie znaczka checked po kliknieciu na guzik
 var list = document.querySelector('ul');
 list.addEventListener('click', function (ev) {
-    if (ev.target.tagName === 'li') {
+    if (ev.target.tagName === 'LI') {
         ev.target.classList.toggle('checked');
     }
 }, false);
