@@ -18,10 +18,10 @@ $(document).ready(function () {
 
 
 // 'X' do zamykania tasków
-var myNodelist = document.getElementsByTagName("LI");
+var myNodelist = document.getElementsByTagName("li");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
-    var span = document.createElement("SPAN");
+    var span = document.createElement("span");
     var txt = document.createTextNode("\u00D7");
     span.className = "close";
     span.appendChild(txt);
@@ -41,7 +41,7 @@ for (i = 0; i < close.length; i++) {
 // 'check'- dodawanie znaczka checked po kliknieciu na guzik
 var list = document.querySelector('ul');
 list.addEventListener('click', function (ev) {
-    if (ev.target.tagName === 'LI') {
+    if (ev.target.tagName === 'li') {
         ev.target.classList.toggle('checked');
     }
 }, false);
@@ -59,7 +59,7 @@ function newElement() {
     }
     document.getElementById("myInput").value = "";
 
-    var span = document.createElement("SPAN");
+    var span = document.createElement("span");
     var txt = document.createTextNode("\u00D7");
     span.className = "close";
     span.appendChild(txt);
