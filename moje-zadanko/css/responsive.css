@@ -1,0 +1,31 @@
+@media all and (min-width: 992px) {
+    #main-nav {
+/*        color: white;*/
+        background-color: rgba(225, 183, 83, 0.76);
+    }
+    
+    #main-nav .navbar-brand  {
+/*        color: white;*/
+    }
+    
+    #main-nav .navbar-nav .nav-item .nav-link {
+/*        color: white;*/
+        padding: 10px;    
+    }
+}
+
+@media all and (max-width: 992px) {
+    #main-nav {
+/*        color: white;*/
+        background-color: rgba(225, 105, 78, 0.85);
+    }
+    
+    #main-nav .navbar-brand  {
+        color: white;
+    }
+    
+    #main-nav .navbar-nav .nav-item .nav-link {
+        color: white;
+        padding: 10px;    
+    }
+}
