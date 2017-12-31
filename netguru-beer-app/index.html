@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+
+    <!--    google-fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+
+    <!--    font-awesome-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!--    bootstrap-->
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css">
+
+    <!--    stylesheets-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--     NAWIGACJA-powrót do góry strony-->
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand navbar-brand-font nav-beer" href="#">Beer<span id="nav-app">app</span>
+
+</a>
+        <!--
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon navbar-color"></span>
+  		</button>
+-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        </div>
+    </nav>
+
+
+
+    <!--   sekcja aplikacji-->
+
+    <!--
+ 
+<section id="beer-list">
+    <div class="container container-beer-list  justify-content-center align-items-center align-content-center">
+        <div class="d-flex flex-row row-beer-list">
+            <div class="d-flex flex-column  beer" id="beer-1">
+                
+            </div>
+            <div class="d-flex flex-column  beer" id="beer-2">
+                
+            </div>
+            <div class="d-flex flex-column  beer" id="beer-3">
+                
+            </div>
+            <div class="d-flex flex-column  beer" id="beer-4">
+                
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+    <section id="beer-list">
+        <div class="container container-beer-list">
+            <div class="row row-beer-list">
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-1">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-2">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-3">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-4">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-5">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-6">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-7">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-8">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-9">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-10">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-11">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-12">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-13">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-14">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-15">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-16">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-17">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-18">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-19">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-20">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--page 2-->
+    
+            <div class="container container-beer-list">
+            <div class="row row-beer-list">
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-21">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-22">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-23">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-24">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-25">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-26">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-27">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-28">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-29">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-30">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-31">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-32 beer text-center">
+                    <div class="beer-inside" id="beer-12">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-33">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-34">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-35">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-36">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-37">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-38">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-39">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-40">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!--page-3-->
+    
+            <div class="container container-beer-list">
+            <div class="row row-beer-list">
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-41">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-42">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-43">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-44">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-45">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-46">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-47">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-48">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-49">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-50">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-51">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-52">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-53">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-54">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-55">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-56">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-57">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-58">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-59">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-60">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!--        page-4-->
+    
+            <div class="container container-beer-list">
+            <div class="row row-beer-list">
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-61">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-62">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-63">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-64">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-65">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-66">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-67">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-68">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-69">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-70">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-71">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-72">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-73">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-74">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-75">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-76">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-77">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-78">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-79">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 beer text-center">
+                    <div class="beer-inside" id="beer-80">
+                        <div class="beer-maska">
+                            <div class="beer-img"></div>
+                            <div class="beer-name"></div>
+                            <div class="beer-tagline"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-12 loader-parent">
+                <div class="loader"></div>
+            </div>
+        </div>
+    </section>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div id="modal-content">
+            <span class="close">&times;</span>
+
+            <div id="description">
+                <img id="beer-img" class="beer-img text-center" src="" alt="">
+                <div class="modal-desc">
+                    <div class="break">
+                        <p id="beer-name" class="beer-name "></p>
+                        <p id="beer-tagline" class="beer-tagline"></p>
+                    </div>
+                    <div class="abbreviations">
+                        <span class="abbr">IBU:</span><span id="ibu" class="abbr-val"></span><span class="abbr">ABV:</span><span id="abv" class="abbr-val"></span><span class="abbr">EBC:</span><span class="abbr-val" id="ebc"></span>
+                    </div>
+                    
+                    <p id="description-text"></p>
+                    <p id="enjoy">Enjoy it with:</p>
+                    <ul id="enjoy-list">
+
+                    </ul>
+                </div>
+            </div>
+            <p class="other-beer-options">Check these out!</p>
+            <div class="other-beers">
+                <div class="other-b text-center" id="other-1">
+                    <img id="beer-img-tiny1" class="beer-img-tiny text-center" src="" alt="">
+                    <p id="beer-name-tiny1" class="beer-name-tiny "></p>
+                </div>
+                <div class="other-b text-center" id="other-2">
+                    <img id="beer-img-tiny2" class="beer-img-tiny text-center" src="" alt="">
+                    <p id="beer-name-tiny2" class="beer-name-tiny"></p>
+                </div>
+                <div class="other-b text-center" id="other-3">
+                    <img id="beer-img-tiny3" class="beer-img-tiny text-center" src="" alt="">
+                    <p id="beer-name-tiny3" class="beer-name-tiny "></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
