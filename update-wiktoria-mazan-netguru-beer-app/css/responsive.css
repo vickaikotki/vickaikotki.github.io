@@ -4,7 +4,7 @@
     }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 580px) {
     #main-nav {
         background-color: rgba(225, 105, 78, 0.85);
     }
@@ -23,7 +23,7 @@
         box-sizing: content-box;
         top: 0;
         width: 400px;
-        display: flex;
+/*        display: flex;*/
         flex-direction: column;
         text-align: center;
         top: 0;
@@ -51,9 +51,13 @@
     }
     
     #beer-img {
-        width: 100%;
+        float: none;
+/*        chrome i firefox*/
+        -moz-width: 100%;
+        -webkit-width: 100%;
+/*        IE bez width*/
     }
-    #beer-img>img {
+    #beer-img {
         padding-left: 0px;
     }
     .abbreviations {

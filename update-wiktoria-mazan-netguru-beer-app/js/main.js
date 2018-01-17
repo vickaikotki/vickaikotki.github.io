@@ -6,9 +6,7 @@ $(document).ready(function () {
     getRandomBeer(Math.floor((Math.random() * 80) + 1), 1);
     getRandomBeer(Math.floor((Math.random() * 80) + 1), 2);
     getRandomBeer(Math.floor((Math.random() * 80) + 1), 3);
-    //    getRandomBeer1();
-    //    getRandomBeer2();
-    //    getRandomBeer3();
+
 
 
 
@@ -17,6 +15,9 @@ $(document).ready(function () {
 var n = 2;
 var i = 20;
 $(window).scroll(function () {
+    
+
+    
     if ($(document).height() <= ($(window).height() + $(window).scrollTop())) {
         //Bottom Reached
 
@@ -25,15 +26,12 @@ $(window).scroll(function () {
             loadThisDoc(n, i);
             n++;
             i += 20;
-
-
-            
-
         }
 
         if (i >= 39) {
             for (var j = 20; j < 40; j++) {
                 document.getElementsByClassName('beer')[j].style.display = "flex";
+               
             }
         }
 
@@ -49,12 +47,9 @@ $(window).scroll(function () {
                 document.getElementsByClassName('beer')[j].style.display = "flex";
             }
             $(".loader-parent").css("display", "none");
+
         }
-
-
-
     }
-
 
 });
 
@@ -81,13 +76,15 @@ function getMoreInfo(x) {
 
             var myObj = JSON.parse(this.responseText);
 
+//
+//            document.getElementById('beer-img').innerHTML = '<img src="' + myObj[0].image_url + '">';
+            
+            document.getElementById('beer-img').setAttribute("src", myObj[0].image_url);
 
-            document.getElementById("beer-img").innerHTML = '<img src="' + myObj[0].image_url + '">';
-
-            document.getElementById("beer-name").innerHTML = myObj[0].name;
+            document.getElementById('beer-name').innerHTML = myObj[0].name;
 
 
-            document.getElementById("beer-tagline").innerHTML =
+            document.getElementById('beer-tagline').innerHTML =
                 myObj[0].tagline;
 
             document.getElementById("ibu").innerHTML = myObj[0].ibu;
@@ -143,9 +140,11 @@ function getRandomBeer(x, i) {
         if (this.readyState == 4 && this.status == 200) {
 
             var myObj = JSON.parse(this.responseText);
+            
 
 
-            document.getElementById("beer-img-tiny" + i).innerHTML = '<img src="' + myObj[0].image_url + '">';
+
+            document.getElementById('beer-img-tiny' + i).setAttribute("src", myObj[0].image_url);
 
             document.getElementById("beer-name-tiny" + i).innerHTML = myObj[0].name;
         }
@@ -156,65 +155,6 @@ function getRandomBeer(x, i) {
 
 }
 
-//function getRandomBeer1() {
-//    var xhttp = new XMLHttpRequest();
-//
-//    xhttp.onreadystatechange = function () {
-//        if (this.readyState == 4 && this.status == 200) {
-//
-//            var myObj = JSON.parse(this.responseText);
-//
-//
-//            document.getElementById("beer-img-tiny1").innerHTML = '<img src="' + myObj[0].image_url + '">';
-//
-//            document.getElementById("beer-name-tiny1").innerHTML = myObj[0].name;
-//
-//        }
-//    };
-//    xhttp.open("GET", "https://api.punkapi.com/v2/beers/" + Math.floor((Math.random() * 20) + 1), true);
-//    xhttp.send();
-//
-//}
-//
-//function getRandomBeer2() {
-//    var xhttp = new XMLHttpRequest();
-//
-//    xhttp.onreadystatechange = function () {
-//        if (this.readyState == 4 && this.status == 200) {
-//
-//            var myObj = JSON.parse(this.responseText);
-//
-//
-//            document.getElementById("beer-img-tiny2").innerHTML = '<img src="' + myObj[0].image_url + '">';
-//
-//            document.getElementById("beer-name-tiny2").innerHTML = myObj[0].name;
-//
-//        }
-//    };
-//    xhttp.open("GET", "https://api.punkapi.com/v2/beers/" + Math.floor((Math.random() * 20) + 1), true);
-//    xhttp.send();
-//
-//}
-//
-//function getRandomBeer3() {
-//    var xhttp = new XMLHttpRequest();
-//
-//    xhttp.onreadystatechange = function () {
-//        if (this.readyState == 4 && this.status == 200) {
-//
-//            var myObj = JSON.parse(this.responseText);
-//
-//
-//            document.getElementById("beer-img-tiny3").innerHTML = '<img src="' + myObj[0].image_url + '">';
-//
-//            document.getElementById("beer-name-tiny3").innerHTML = myObj[0].name;
-//
-//        }
-//    };
-//    xhttp.open("GET", "https://api.punkapi.com/v2/beers/" + Math.floor((Math.random() * 40) + 21), true);
-//    xhttp.send();
-//}
-
 
 function loadThisDoc(n, i) {
     var xhttp = new XMLHttpRequest();
@@ -224,14 +164,20 @@ function loadThisDoc(n, i) {
 
             var myObj = JSON.parse(this.responseText);
 
-            var beerImg = document.getElementsByClassName("beer-img");
+        
+//            var beerImg = document.getElementsByClassName('beer-img');
             var w = i;
             var z = 0;
 
             for (i; i < w + 20; i++) {
+                
 
-                console.log(i);
-                beerImg[i].innerHTML = '<img src="' + myObj[z].image_url + '">';
+//                console.log(i);
+//                beerImg[i].innerHTML = '<img src="' + myObj[z].image_url + '">';
+                
+                document.getElementsByClassName('beer-img')[i].innerHTML = '<img src="' + myObj[z].image_url + '">';
+                
+
 
                 document.getElementsByClassName("beer-name")[i].innerHTML =
                     myObj[z].name;

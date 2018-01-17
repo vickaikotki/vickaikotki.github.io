@@ -23,38 +23,35 @@ body {
 /*header*/
 
 .beer {
-/*    margin: 0 2% 0 2%;*/
     display: flex;
     align-content: center;
-/*    overflow: hidden;*/
-/*    box-sizing: content-box;*/
     height: 350px;
-/*    border: 1px solid black;*/
-    /*    background-color: #E2D8A3;*/
+    
+}
+
+.beerAppear {
+      -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
 }
 
 .beer-inside {
-/*    box-sizing: border-box;*/
     width: 100%;
     height: 300px;
-/*    padding: 15px;*/
     background-color: #E2D8A3;
-/*    background-color: white;*/
     transition: all 0.4s;
 }
 
 .beer-inside:hover {
     transform: scale(1.05);
-/*    padding: 0;*/
-/*    background-color: #98cbb0;*/
-/*    color: white;*/
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.4s;
 }
 
 .beer-maska {
-/*    width: 100%;*/
     height: 100%;
     padding: 0 5px 0 5px;
     display: flex;
@@ -66,7 +63,6 @@ body {
 
 .beer-maska:hover {
     background-color: #789F8A;
-/*    background-color: rgba(120, 159, 138, 0.77);*/
     transition: all 0.4s;
 
 }
@@ -86,7 +82,6 @@ body {
 
 .beer-img img {
     height: 150px;
-/*    line-height: 231px;*/
 }
 
 .beer-name {
@@ -110,9 +105,9 @@ body {
     align-content: center;
     align-items: center;
     padding-bottom: 30px;
+    
 }
 .loader {
-/*  display: none;*/
   border: 5px solid #f3f3f3;
   border-radius: 50%;
   border-top: 5px solid #E1694E;
@@ -169,7 +164,7 @@ body {
 
 
 #description {
-    display: flex;
+/*    display: flex;*/
     justify-content: center;
     flex-direction: row;
 }
@@ -181,9 +176,11 @@ body {
     padding: 0 30px 0 50px;
 }
 
-#beer-img>img{
+#beer-img{
+    float: left;
     height: 250px;
     padding-left: 20px;
+    object-fit: contain;
 }
 #beer-name {
     padding: 0;
@@ -209,18 +206,19 @@ body {
 
 #description-text {
     width: 400px;
+   
     padding-top: 15px;
 }
 
 .other-beers {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
-/*    align-items: center;*/
 }
 
 .other-b {
+    margin: 30px;
     width: 120px;
     height: 120px;
     background-color: #E2D8A3;
@@ -251,7 +249,7 @@ body {
     display: none;
 }
 
-.beer-img-tiny img {
+.beer-img-tiny {
     height: 80px;
 }
 
