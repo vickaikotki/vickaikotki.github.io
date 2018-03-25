@@ -14,10 +14,10 @@ function addScrolled(){
     
     if(scroll > height) {
         $('#main-nav').addClass('transparent-blue');
-//        $('.navbar-collapse').addClass('transparent-blue2');
+        $('.navbar-collapse').addClass('transparent-blue');
     } else {
         $('#main-nav').removeClass('transparent-blue');
-//        $('.navbar-collapse').removeClass('transparent-blue2');
+        $('.navbar-collapse').removeClass('transparent-blue');
     }
     }
 

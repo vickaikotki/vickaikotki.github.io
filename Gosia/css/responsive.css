@@ -1,25 +1,21 @@
 @media all and (max-width: 992px) {
     #main-nav {
-/*        background-color: white;*/
-        background-color: rgba(168, 208, 230, 0.74));
-/*        padding: 0;*/
-        
-        
+        background-color: rgba(168, 208, 230, 0.74);
     }
     
+    
     #main-nav .navbar-brand  {
-/*        color: #0ED8D6;*/
         color: white;
     }
     
     #main-nav .navbar-nav .nav-item .nav-link {
-/*
-        background-color: white;
-        color: #0ED8D6;
-*/
-/*        background-color: rgba(14, 216, 214, 0.5);*/
+
         color: white;
         padding: 10px;
         
+    }
+    
+    .header2 {
+        font-size: 26px !important;
     }
 }

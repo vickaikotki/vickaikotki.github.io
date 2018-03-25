@@ -5,7 +5,7 @@ body {
 
 /*nawigacja*/
 
-#main-nav.transparent-blue, .navbar-collapse.transparent-blue2 {
+#main-nav.transparent-blue {
     background-color: rgba(168, 208, 230, 0.75);
 }
 
