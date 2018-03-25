@@ -18,4 +18,8 @@
     .header2 {
         font-size: 26px !important;
     }
+    
+    .header {
+        background-position: center;
+    }
 }
