@@ -71,17 +71,17 @@ body {
 .header .header-box .guzik-viewmore {
     text-transform: uppercase;
     color: white;
-    background-color: #F76C6C;
+    background-color: #A8D0E6;
     font-size: 14px;
     padding: 9px 25px;
-    border: 1px solid #F76C6C;
+    border: 1px solid #A8D0E6;
     transition: all 0.4s;
 }
 
 .header .header-box .guzik-viewmore:hover {
-    color: #F76C6C;
+    color: #A8D0E6;
     background-color: white;
-    border: 1px solid #F76C6C;
+    border: 1px solid #A8D0E6;
     cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .fa-heart {
-    color:  #F76C6C;
+    color:  #A8D0E6;
 }
 /*sekcja services*/
 
@@ -138,9 +138,9 @@ body {
 
 .services-icon i:hover {
     background-color: #FFF;
-    color: #F76C6C;
+    color: #F8E9A1;
     transform: rotate(360deg);
-    border: 1px solid #F76C6C;
+    border: 1px solid #F8E9A1;
 }
 
 .header-pow {
