@@ -147,7 +147,7 @@ body {
     font-weight: 600;
 /*    margin: 0 10px 20px 10px;*/
     padding: 10px 0;
-    text-transform: capitalize; 
+/*    text-transform: capitalize; */
 }
 
 .span-pow {
@@ -179,6 +179,11 @@ body {
     width: 100%;
     justify-content: center;
     padding:  6% 8%;
+}
+
+.sekcja-services {
+/*    height: 100vh;*/
+    padding-top: 150px;;
 }
 
 .opinajace {
@@ -413,4 +418,36 @@ input[placeholder], textarea[placeholder] {
 
 .redlink {
     color: white;
+}
+
+.kontakt {
+    font-size: 36px;
+    
+}
+
+.padding {
+    padding-right: 15px;
+}
+
+.flexy {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.blue-icon:hover {
+    color: #A8D0E6; 
+    transform: 0.4s;
+    
+}
+
+/*
+#before1::before {
+    font-family: FontAwesome;
+    content: '\f015';
+}*/
+
+
+.mini {
+    font-size: 13px;
 }

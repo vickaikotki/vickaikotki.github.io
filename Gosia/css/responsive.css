@@ -22,4 +22,9 @@
     .header {
         background-position: center;
     }
+    
+    .sekcja-services {
+/*    height: 100vh;*/
+    padding-top: 0px;
+    }
 }
