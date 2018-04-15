@@ -467,6 +467,9 @@ input[placeholder], textarea[placeholder] {
 .opinion {
     list-style-type: none;
 }
+.carousel-opinie {
+    padding-top: 40px;
+}
 .carousel-item {
     height: 265px;
 /*    background-color: rgba(240, 240, 240, 0.87);*/
@@ -517,6 +520,17 @@ hr {
 
 
 #terapia-picture {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
+    border-radius: 2% !important;
+}
+
+#terapia {
+    background-color: #f0f0f0;
+}
+
+#background-pic {
+    background-image: url(../zdj/gosia.jpg);
+    background-position: center;
+    background-size: cover;
 }
