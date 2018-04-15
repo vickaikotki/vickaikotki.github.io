@@ -31,8 +31,14 @@
     
     .link-small {
     display: block;
+    background-color: #f0f0f0;
+        
     }
     
+    .resp-tlo {
+        padding-right: 0;
+        padding-left: 0;
+    }
     .link-big {
         display: none;
     }
