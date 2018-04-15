@@ -35,6 +35,9 @@
         
     }
     
+    #background-pic {
+        display: none;
+    }
     .resp-tlo {
         padding-right: 0;
         padding-left: 0;
