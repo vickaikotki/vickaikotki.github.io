@@ -451,3 +451,72 @@ input[placeholder], textarea[placeholder] {
 .mini {
     font-size: 13px;
 }
+
+/*opinie*/
+/*
+.opinie-container {
+    padding: 0;
+}
+*/
+.opinia {
+    padding-right: 20%;
+    padding-left: 20%;
+/*    padding-top: 40px;*/
+    font-size: 14px;
+}
+.opinion {
+    list-style-type: none;
+}
+.carousel-item {
+    height: 265px;
+/*    background-color: rgba(240, 240, 240, 0.87);*/
+/*    background-color: rgba(168, 208, 230, 0.67);*/
+}
+.link {
+    text-align: center;
+    height: 100px !important;
+}
+
+.star {
+    color: #F8E9A1;
+}
+
+.opinion__content {
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+hr {
+    color: rgb(219, 218, 218);
+}
+
+.link {
+    height: 30px;
+    width: 60px
+    border-radius: 20px;
+    background-color: color: #A8D0E6; ;
+    color: white;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: rgba(176, 219, 242, 0.74);
+}
+
+.link-btn {
+    margin-top: 10px;
+    background-color: rgba(176, 219, 242, 0.74);
+    color: white;
+    
+}
+
+.link-small {
+    display: none;
+}
+/*terapia*/
+
+
+#terapia-picture {
+    width: 400px;
+    height: 400px;
+}
