@@ -295,6 +295,11 @@ body {
     margin-top: 8%;
 }
 
+#gosia3 {
+    width: 350px;
+    height: 350px;
+}
+
 .social-media-icons {
     display: flex;
     flex-direction: row;
@@ -347,10 +352,10 @@ body {
 }
 
 #contact {
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../zdj/beach.jpg);
-/*    background: rgba(0, 0, 0, 0.8) url(../zdj/beach.jpg)center no-repeat;*/
-/*    background-image: url(../zdj/beach.jpg);*/
-/*    background-position: center;*/
+/*    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../zdj/beach.jpg);*/
+    background: rgba(0, 0, 0, 0.8) url(../zdj/beach.jpg)center no-repeat;
+    background-image: url(../zdj/beach.jpg);
+    background-position: center;
     background-size: cover;
 /*    background-color: #F8E9A1;*/
     
@@ -511,6 +516,7 @@ hr {
     margin-top: 10px;
     background-color: rgba(176, 219, 242, 0.74);
     color: white;
+    cursor: pointer;
     
 }
 
@@ -534,4 +540,21 @@ hr {
     background-image: url(../zdj/gosia.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.nostyle {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.gosia {
+    background-image: url(../zdj/gosia.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100vw;
+}
+
+.padlink {
+    margin-bottom: 30px;
 }
