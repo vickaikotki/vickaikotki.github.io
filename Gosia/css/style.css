@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto Slab', serif;
+    overflow-x: hidden;
 }
 
 /*nawigacja*/
@@ -441,11 +442,6 @@ input[placeholder], textarea[placeholder] {
     padding-bottom: 30px;
 }
 
-.blue-icon:hover {
-    color: #A8D0E6; 
-    transform: 0.4s;
-    
-}
 
 /*
 #before1::before {
@@ -548,8 +544,9 @@ hr {
 }
 
 .gosia {
-    background-image: url(../zdj/gosia.jpg);
-    background-position: center;
+    background: rgba(0, 0, 0, 0.5) url(../zdj/gosia.jpg) center no-repeat;
+/*    background-image: url();*/
+/*    background-position: center;*/
     background-size: cover;
     height: 400px;
     width: 100vw;
