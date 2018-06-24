@@ -4,6 +4,23 @@ body {
     overflow-x: hidden;
 }
 
+.dodatkowy-margines {
+    margin-bottom: 35px;
+}
+
+.cytaty {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.cytat-czcionka {
+    
+    font-family: 'Lobster', cursive;
+    font-size: 43px !important;
+    color: #A8D0E6;
+}
+
 /*nawigacja*/
 
 #main-nav.transparent-blue {
@@ -89,6 +106,10 @@ body {
 .mon {
     font-family: 'Montserrat', sans-serif;
 }
+.nagl {
+    font-family: 'Lobster', 'cursive';
+    font-size: 38px;
+}
 
 .navbar-color {
     color: white;
@@ -144,9 +165,21 @@ body {
     border: 1px solid #F8E9A1;
 }
 
+.services-icona i {
+    border: 1px solid #f0f0f0;
+    color: #f0f0f0;
+}
+
+.services-icona i:hover {
+    background-color: #f0f0f0;
+    color: #A8D0E6;
+    border: 1px solid #A8D0E6;
+    
+}
+
 .header-pow {
     font-weight: 600;
-/*    margin: 0 10px 20px 10px;*/
+    margin-bottom: 35px;
     padding: 10px 0;
 /*    text-transform: capitalize; */
 }
@@ -429,8 +462,13 @@ input[placeholder], textarea[placeholder] {
 
 .kontakt {
     font-size: 36px;
-    
 }
+/*
+
+.wiedza {
+    margin-bottom: 35px;
+}
+*/
 
 .padding {
     padding-right: 15px;
@@ -474,8 +512,6 @@ input[placeholder], textarea[placeholder] {
 }
 .carousel-item {
     height: 265px;
-/*    background-color: rgba(240, 240, 240, 0.87);*/
-/*    background-color: rgba(168, 208, 230, 0.67);*/
 }
 .link {
     text-align: center;
@@ -531,6 +567,8 @@ hr {
 #terapia {
     background-color: #f0f0f0;
 }
+
+
 
 #background-pic {
     background-image: url(../zdj/gosia.jpg);
