@@ -38,13 +38,6 @@
     #background-pic {
         display: none;
     }
-    .resp-tlo {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .link-big {
-        display: none;
-    }
     
     .carousel-opinie {
         display: none;
@@ -62,5 +55,17 @@
     .miamiko {
         margin-bottom: 30px;
     }
+    
+    .biofeed-pic {
+        display: block;
+        padding-bottom: 40px;
+    }
+    
+    .carousel-phone {
+        display: block;
+        font-size: 14px;
+        margin: 35px 0 30px 0;
+    }
+
 
 }

@@ -463,45 +463,28 @@ input[placeholder], textarea[placeholder] {
 .kontakt {
     font-size: 36px;
 }
-/*
-
-.wiedza {
-    margin-bottom: 35px;
-}
-*/
 
 .padding {
     padding-right: 15px;
+    
 }
 
 .flexy {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+    font-size: 18px !important;
 }
 
-
-/*
-#before1::before {
-    font-family: FontAwesome;
-    content: '\f015';
-}*/
 
 
 .mini {
     font-size: 13px;
 }
 
-/*opinie*/
-/*
-.opinie-container {
-    padding: 0;
-}
-*/
 .opinia {
     padding-right: 20%;
     padding-left: 20%;
-/*    padding-top: 40px;*/
     font-size: 14px;
 }
 .opinion {
@@ -583,8 +566,6 @@ hr {
 
 .gosia {
     background: rgba(0, 0, 0, 0.5) url(../zdj/gosia.jpg) center no-repeat;
-/*    background-image: url();*/
-/*    background-position: center;*/
     background-size: cover;
     height: 400px;
     width: 100vw;
@@ -592,4 +573,12 @@ hr {
 
 .padlink {
     margin-bottom: 30px;
+}
+
+.biofeed-pic {
+    display: none;
+}
+
+.carousel-phone {
+    display: none;
 }
