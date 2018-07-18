@@ -77,3 +77,11 @@ $(".nav-vis").on("click", function () {
         $(".nav-hide").removeClass("close");
     }
 });
+
+//close when click outside menu
+
+
+$("#site").on("click", function (event) {
+    $(".nav-hide").addClass("close");
+    $("#navbarSupportedContent").removeClass("show");
+});
