@@ -59,3 +59,18 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+//hide menu on click
+
+$('.nav-hide li').on('click', function () {
+  $('.nav-hide').addClass('close');
+    $('#navbarSupportedContent').removeClass('show');
+    
+});
+
+$( '.nav-vis' ).on('click', function(){
+
+  $('.nav-hide').removeClass('close');
+   
+});

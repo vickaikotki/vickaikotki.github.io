@@ -582,3 +582,7 @@ hr {
 .carousel-phone {
     display: none;
 }
+
+.close {
+    display: none;
+}
