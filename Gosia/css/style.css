@@ -1,3 +1,11 @@
+@font-face {
+
+  font-family: "Lobster";
+
+  src: url("https://fonts.googleapis.com/css?family=Lobster");
+
+}
+
 body {
     margin: 0;
     font-family: 'Roboto Slab', serif;
@@ -181,7 +189,6 @@ body {
     font-weight: 600;
     margin-bottom: 35px;
     padding: 10px 0;
-/*    text-transform: capitalize; */
 }
 
 .span-pow {
