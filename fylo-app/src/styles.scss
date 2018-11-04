@@ -1,0 +1,158 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+// head styles
+@font-face {
+    font-family: PlutoMedium;
+    src: url("/src/assets/fonts/PlutoMedium.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    // font-family: PlutoMedium;
+    font-weight: 500;
+    .btn-green {
+        background-color: #0ED59D;
+        color: white;
+    }
+}
+
+.fill {
+    height: 630px;
+    background-image: linear-gradient(to right, #251E7E, #7F7BC8);
+    color: white;
+    .nav {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 4% 6%;
+        .nav-buttons {
+            .btn {
+                color: white;
+                width: 120px;
+            }
+        }
+    }
+    .container {
+        .row {
+            .col-left {
+                padding: 0;
+                margin: 0;
+                .inner {
+                    .main-header {
+                        padding-top: 90px;
+                        text-transform: capitalize;
+                        padding-right: 140px;
+                    }
+                    .btn-big {
+                        width: 220px;
+                        margin-top: 25px;
+                        height: 50px;
+                    }
+                }
+            }
+            .col-right {
+                img {
+                    height: 80%;
+                    padding-left: 45px;
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+.skewedBox {
+    z-index: -1;
+    height: 250px;
+    background-image: linear-gradient(to right, #251E7E, #7F7BC8);
+    transform: skew(0deg, 6deg) translateY(-140px);
+}
+
+@media all and (max-width: 1060px) {
+    .fill {
+        height: 751px;
+        .nav {
+            padding: 4% 6%;
+            .nav-buttons {
+                .btn {}
+            }
+        }
+        .container {
+            .row {
+                .col-left {
+                    padding: 0;
+                    margin: 0;
+                    .inner {
+                        .main-header {
+                            padding-top: 50px;
+                            padding-right: 30px;
+                        }
+                        .btn-big {}
+                    }
+                }
+                .col-right {
+                    img {
+                        height: 70%;
+                        padding-left: 0px;
+                        padding-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .skewedBox {
+        height: 200px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .fill {
+        // height: 133vh;
+        .nav {
+            padding: 4% 6%;
+            .logo {
+                img {
+                    padding-top: 5px;
+                    width: 90px;
+                }
+            }
+            .nav-buttons {
+                .btn {
+                    width: 80px;
+                }
+            }
+        }
+        .container {
+            .row {
+                display: flex;
+                flex-direction: column-reverse;
+                .col-left {
+                    padding: 0;
+                    margin: 0;
+                    .inner {
+                        text-align: center;
+                        .main-header {
+                            padding: 50px 15px 0 15px;
+                            font-size: 26px;
+                        }
+                        .btn-big {}
+                    }
+                }
+                .col-right {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        height: 300px;
+                        padding-left: 0px;
+                        padding-top: 60px;
+                    }
+                }
+            }
+        }
+    }
+    .skewedBox {
+        height: 173px;
+        transform: skew(0deg, 6deg) translateY(-130px);
+    }
+}

@@ -1,0 +1,91 @@
+.granat {
+    color: #07043B;
+    margin-bottom: 15px;
+    padding-right: 40%;
+    font-weight: 700;
+    input {
+        margin-right: 10px;
+        width: 35%;
+        padding-left: 41px;
+        height: 40px;
+        line-height: 40px;
+        border: none;
+        box-shadow: 0px 0px 5px 1px rgb(230, 228, 228);
+        border-radius: 4px;
+    }
+     ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(230, 228, 228);
+        opacity: 1;
+        /* Firefox */
+    }
+     :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: rgb(230, 228, 228);
+    }
+    button {
+        width: 15%;
+        margin-top: -4px;
+        box-shadow: 0px 0px 5px 1px rgb(230, 228, 228);
+    }
+    p {
+        padding: 0px 19%;
+        font-size: 14px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        color: #251E7E;
+    }
+}
+
+.fiolet {
+    color: rgb(95, 93, 136);
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-right: 25%;
+    font-size: 14px;
+}
+
+h2 {
+    text-transform: capitalize;
+    margin-bottom: 90px;
+    font-weight: 700;
+}
+
+.image-col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    img {
+        height: 290px;
+    }
+}
+
+.cont {
+    padding: 0 4% 8% 4%;
+}
+
+@media all and (max-width: 1060px) {
+    .cont {
+        padding: 0 8% 8% 8%;
+    }
+    .image-col {
+        img {
+            height: 220px;
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .granat {
+        p {
+            padding: 0;
+        }
+        button {
+            margin-top: 20px;
+            width: 100%;
+        }
+        input {
+            width: 100%;
+        }
+    }
+}
